@@ -1,0 +1,21 @@
+body{
+    background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+list{
+    list-style: none;
+    line-height: 2.5px;
+}
+q{
+    color: green;
+}
+img{
+    width: 169px;
+}
