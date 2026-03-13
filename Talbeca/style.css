@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    background: yellow;
+    border-left: 2px dashed black;
+    border-right: 2px dashed black;
+    border-top: 2px solid black;
+}
+
+.good{
+    padding: 10px 40px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.bad {
+    padding: 10px 40px;
+    border-bottom: 2px solid black;
+}
+
+.green {
+    background: lightgreen;
+}
+
+.red {
+    background: lightcoral;
+}
