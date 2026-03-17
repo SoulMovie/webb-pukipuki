@@ -1,0 +1,39 @@
+* {
+    background: #C9A5AA;
+}
+
+nav {
+    background: #F4D3D3;
+    border-radius: 15%;
+}
+
+nav ul {
+    background: #F4D3D3;
+    display: inline-block;
+}
+
+nav ul li {
+    background: #F4D3D3;
+    color: #006EBE;
+    display: inline;
+}
+
+nav ul li a{
+    background: #F4D3D3;
+    color: #006EBE;
+    padding: 5px;
+    border-radius: 15%;
+}
+
+nav ul li a:visited {
+    color: #0B257D;
+}
+
+nav ul li a:hover {
+    color: #5EAAE0;
+    background: #FFFFFF;
+}
+
+header {
+    background: #E9E9E9;
+}
