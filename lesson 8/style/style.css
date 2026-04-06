@@ -27,7 +27,7 @@
 
 .logo-icon{
     font-size: 20px;
-    background: linear-gradient(magenta, peru);
+    background: linear-gradient(deeppink, orange);
     border-radius: 50%;
     padding: 10px;
 }
@@ -58,13 +58,200 @@ nav ul li a:hover{
 }
 
 .header-top-button button:hover{
-    background: linear-gradient(magenta, peru);
+    background: linear-gradient(deeppink, orange);
 }
+
+.header-bottom-btn button:hover{
+    background: linear-gradient(deeppink, orange);
+}
+
 
 .header-bottom{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 130px 0;
-    background: linear-gradient(magenta, peru);
+    background: linear-gradient(deeppink, orange);
+}
+
+.header-bottom h1{
+    font-size: 60px;
+    font-weight: 600;
+    width: 770px;
+    line-height: 60px;
+    text-align: center;
+}
+.header-bottom p{
+    font-size: 20px;
+    font-weight: 400;
+    width: 770px;
+    text-align: center;
+
+}
+.header-bottom-btn button{
+    border: none;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#btn-hover{
+    font-color: transparent;
+
+}
+#btn-hover:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: #0f0f0f;
+    cursor: pointer;
+
+}
+.advantages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+    padding: 65px 0;
+    text-align: center;
+}
+
+.advantages article span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    background-color: #f4e8ff;
+    border-radius: 50%;
+    color: #0f0f0f;
+    margin-bottom: 16px;
+}
+
+.advantages article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages article p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: magenta;
+}
+
+.catalog{
+    display: flex;
+    flex-direction: column;
+    padding: 65px 0;
+    align-items: center;
+}
+
+.catalog-cards{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.card{
+    border: 1px solid #dbdbdb;
+    border-radius: 15px;
+    max-width: 350px;
+}
+
+.card img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.catalog h2{
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.catalog > p{
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 50;
+}
+
+.label{
+    font-size: 12px;
+    line-height: 24px;
+    color: magenta;
+    text-transform: uppercase;
+}
+
+.card-text{
+    padding: 16px;
+}
+
+.card-text h3{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.card-text p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cost{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: magenta;
+}
+
+.instock{
+    font-size: 12px;
+    line-height: 26px;
+    color: mediumseagreen;
+}
+
+.card-btn{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: darkmagenta;
+    color: white;
+}
+.card-btn:hover{
+    background: linear-gradient(deeppink, orange);
+}
+
+.all-btn{
+    width: fit-content;
+    padding: 12px 24px;
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: darkmagenta;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
