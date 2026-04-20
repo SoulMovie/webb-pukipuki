@@ -1,0 +1,109 @@
+:root{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: #C9A5AA;;
+}
+
+.wrapper{
+    margin: 12px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px;
+    background: #FCE9E9;
+    padding: 10px;
+}
+
+.menu{
+    font-family: "Arial Black";
+    padding: 10px;
+    display: block;
+}
+
+nav ul li{
+    padding: 6px 0;
+
+}
+
+nav ul li a{
+    display: block;
+    color: #006EBE;
+}
+
+nav ul li a:hover{
+    background: #FFFFFF;
+    color: #5EAAE0;
+}
+.nav > li:hover{
+    background: #FFFFFF;
+}
+
+nav ul li a:visited{
+    color: #0B257D;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background: #FFFFFF;
+    border-radius: 8px 8px 0 0;
+    margin-top: 16px;
+    row-gap: 16px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+h1{
+    font-size: 24px;
+}
+
+.info h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+figure{
+    background: #F4D3D3;
+    border-radius: 10px;
+    text-align: center;
+}
+
+figure img{
+    display: block;
+    max-width: 100%;
+}
+
+figcaption{
+    
+}
