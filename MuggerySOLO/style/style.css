@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #0f172b;
+    color: #90a1b9;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.header-top .logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header-top .logo .logo-blue{
+    color: #155dfc;
+}
+
+.header-top button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    color: #fff;
+    border: none;
+}
+
+.header-top button span{
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+h1{
+    color: #51a2ff;
+    font-size: 4rem;
+}
+
+.header-bottom p{
+    font-size: 1.6rem;
+    padding: 20px 0;
+}
+
+.header-bottom svg{
+    position: absolute;
+    top: 150px;
+    left: 1100px;
+}
+
+.header-bottom {
+    margin: 80px 0;
+}
+
+h2{
+    color: #90a1b9;
+    font-size: 2.5rem;
+}
+
+br{
+    color: #90a1b9;
+}
+
+.career-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.card{
+    background: #45556c;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #90a1b9;
+}
+
+.card:hover{
+    border: 1px solid #51a2ff;
+}
+
+.card h3{
+    color: #fff;
+    margin: 10px 0;
+}
+
+.card .top{
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+.card .hot{
+    background: indianred;
+}
+
+.card .new{
+    background: mediumseagreen;
+}
+
+.card .trending{
+    background: deepskyblue;
+}
