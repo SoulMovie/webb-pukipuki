@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link type="text/css" rel="stylesheet" href="style/normalize.css"/>
+    <link type="text/css" rel="stylesheet" href="style/style.css"/>
+    <meta charset="UTF-8">
+    <title>TechInnovate</title>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>Форма прийому на роботу</h1>
+        <h2>ІТ Компанія "TechInnovate"</h2>
+        <p>Поля позначені синьою лінією є обов'язковими для заповнення</p>
+    </header>
+    <main>
+        <section class="flux">
+            <article class="card">
+                <h2>Персональні дані</h2>
+                <form>
+                    Ім'я * <br>
+                    <input type="text" name="name" value="Ur-mom" placeholder="Введіть ваше ім'я" required>
+                </form>
+                <form>
+                    Прізвище * <br>
+                    <input type="text" name="surname" value="Ur-mom" placeholder="Введіть ваше прізвище" required>
+                </form>
+                <form>
+                    Email * <br>
+                    <input type="email" name="email" value="urmom@ukr.net" placeholder="vladgovadovskij@gmail.com" required>
+                </form>
+                <form>
+                    Телефон * <br>
+                    <input type="tel" name="phon" value="urmom@ukr.net" placeholder="+380 xx xxx xx xx" required>
+                </form>
+            </article>
+            <article class="card">
+                <form>
+                    Бажана позиція * <br>
+                    <select name="job">
+                        <option value="">Оберіть позицію</option>
+                        <option value="">Frontend Developer</option>
+                        <option value="">Backend Developer</option>
+                        <option value="">Full Stack Developer</option>
+                        <option value="">DevOps Engineer</option>
+                        <option value="">QA Engineer</option>
+                        <option value="">UI/UX Designer</option>
+                        <option value="">Mobile Developer</option>
+                        <option value="">Data Scientist</option>
+                    </select>
+                </form>
+                <form>
+                    Досвід роботи (років) * <br>
+                    <input type="number" min="0" max="50" name="yrs" value="0" placeholder="0-50" required>
+                </form>
+                <form>
+                    Технології та навички * <br>
+                    <input type="text" name="tech" value="ballbis" placeholder="c+++" required>
+                </form>
+            </article>
+        </section>
+    </main>
+</div>
+</body>
+</html>
