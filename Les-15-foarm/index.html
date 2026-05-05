@@ -7,59 +7,114 @@
     <title>TechInnovate</title>
 </head>
 <body>
-<div id="wrapper">
+<div class="wrapper">
     <header>
         <h1>Форма прийому на роботу</h1>
         <h2>ІТ Компанія "TechInnovate"</h2>
         <p>Поля позначені синьою лінією є обов'язковими для заповнення</p>
     </header>
+
     <main>
-        <section class="flux">
-            <article class="card">
-                <h2>Персональні дані</h2>
-                <form>
-                    Ім'я * <br>
-                    <input type="text" name="name" value="Ur-mom" placeholder="Введіть ваше ім'я" required>
-                </form>
-                <form>
-                    Прізвище * <br>
-                    <input type="text" name="surname" value="Ur-mom" placeholder="Введіть ваше прізвище" required>
-                </form>
-                <form>
-                    Email * <br>
-                    <input type="email" name="email" value="urmom@ukr.net" placeholder="vladgovadovskij@gmail.com" required>
-                </form>
-                <form>
-                    Телефон * <br>
-                    <input type="tel" name="phon" value="urmom@ukr.net" placeholder="+380 xx xxx xx xx" required>
-                </form>
-            </article>
-            <article class="card">
-                <form>
-                    Бажана позиція * <br>
-                    <select name="job">
-                        <option value="">Оберіть позицію</option>
-                        <option value="">Frontend Developer</option>
-                        <option value="">Backend Developer</option>
-                        <option value="">Full Stack Developer</option>
-                        <option value="">DevOps Engineer</option>
-                        <option value="">QA Engineer</option>
-                        <option value="">UI/UX Designer</option>
-                        <option value="">Mobile Developer</option>
-                        <option value="">Data Scientist</option>
-                    </select>
-                </form>
-                <form>
-                    Досвід роботи (років) * <br>
-                    <input type="number" min="0" max="50" name="yrs" value="0" placeholder="0-50" required>
-                </form>
-                <form>
-                    Технології та навички * <br>
-                    <input type="text" name="tech" value="ballbis" placeholder="c+++" required>
-                </form>
-            </article>
-        </section>
+        <form>
+            <section class="flux">
+
+                <article class="card personal">
+                    <h2>Персональні дані</h2>
+
+                    <div class="card-grid">
+                        <div class="form">
+                            Ім'я *<br>
+                            <input type="text" name="name" placeholder="Введіть ваше ім'я" required>
+                        </div>
+
+                        <div class="form">
+                            Прізвище *<br>
+                            <input type="text" name="surname" placeholder="Введіть ваше прізвище" required>
+                        </div>
+
+                        <div class="form">
+                            Email *<br>
+                            <input type="email" name="email" placeholder="example@gmail.com" required>
+                        </div>
+
+                        <div class="form">
+                            Телефон *<br>
+                            <input type="tel" name="phone" placeholder="+380 xx xxx xx xx" required>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card professional">
+                    <h2>Професійна інформація</h2>
+
+                    <div class="card-grid">
+                        <div class="form">
+                            Бажана позиція *<br>
+                            <select name="job" required>
+                                <option value="">Оберіть позицію</option>
+                                <option value="frontend">Frontend Developer</option>
+                                <option value="backend">Backend Developer</option>
+                                <option value="fullstack">Full Stack Developer</option>
+                                <option value="devops">DevOps Engineer</option>
+                                <option value="qa">QA Engineer</option>
+                                <option value="design">UI/UX Designer</option>
+                                <option value="mobile">Mobile Developer</option>
+                                <option value="data">Data Scientist</option>
+                            </select>
+                        </div>
+
+                        <div class="form">
+                            Досвід роботи (років) *<br>
+                            <input type="number" name="yrs" min="0" max="50" placeholder="0-50" required>
+                        </div>
+
+                        <div class="form">
+                            Технології та навички *<br>
+                            <input type="text" name="tech" placeholder="React, TypeScript, Node.js, Python..." required>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card additional">
+                    <h2>Додаткова інформація</h2>
+
+                    <div class="card-grid">
+                        <div class="form">
+                            GitHub профіль<br>
+                            <input type="url" name="github" placeholder="https://github.com/username">
+                        </div>
+
+                        <div class="form">
+                            Портфоліо<br>
+                            <input type="url" name="portfolio" placeholder="https://yourportfolio.com">
+                        </div>
+
+                        <div class="form">
+                            Резюме (PDF, DOC) *<br>
+                            <input type="file" name="cv" accept=".pdf,.doc,.docx" required>
+                        </div>
+
+                        <div class="form">
+                            Коротко про себе *<br>
+                            <textarea name="about" minlength="50"
+                                      placeholder="Розкажіть про свій досвід, мотивацію та чому ви хочете приєднатися до нашої команди... (мінімум 50 символів)"
+                                      required></textarea>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card check">
+                    <div class="form">
+                        <input type="checkbox" name="agree" required>
+                        Я даю згоду на обробку персональних даних та підтверджую, що вся надана інформація є достовірною *
+                    </div>
+                </article>
+
+                <button type="submit">Надіслати заявку</button>
+            </section>
+        </form>
     </main>
+</div>
 </div>
 </body>
 </html>
